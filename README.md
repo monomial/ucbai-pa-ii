@@ -27,6 +27,9 @@ The analysis revealed that certain features are particularly influential in pred
 - Regular model updates and retraining with new data are recommended to adapt to changing market conditions and trends.
 
 
+## View Notebook
+You can view the Jupyter notebook [directly on GitHub](prompt_II.ipynb) or via this [nbviewer link](https://nbviewer.org/github/monomial/ucbai-pa-ii/blob/main/prompt_II.ipynb).
+
 ## Getting Started
 
 ### Prerequisites
