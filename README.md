@@ -3,6 +3,31 @@
 ## Project Overview
 This repository contains the a Jupyter notebook that explores a used car dataset and creates regression models for predicting used car prices based on various features such as year, mileage, manufacturer, and type. The goal of this project is to provide used car dealers with insights that can help them optimize their inventory and pricing strategies.
 
+## Data
+
+### Overview
+The data for this project consists of a dataset of used cars, which includes various features such as age, mileage, manufacturer, and other car-specific characteristics. This dataset was used to develop models that predict the prices of used cars based on these features.
+
+### Key Variables
+- **Age**: The current year minus the year the vehicle was manufactured, transformed using the natural logarithm to normalize its distribution.
+- **Odometer**: The mileage of the car in miles, also transformed using the natural logarithm to normalize its distribution.
+- **Manufacturer**: The brand of the car.
+- **Fuel**: The type of fuel the car uses.
+- **Transmission**: The type of transmission in the car.
+- **Drive**: The type of drivetrain in the car.
+- **Type**: The body type of the car.
+- **Title Status**: The legal status of the car (e.g., clean, salvage).
+
+### Preprocessing
+Data preprocessing involved cleaning missing values, encoding categorical variables using one-hot encoding, and transforming skewed numeric variables to improve model accuracy and performance.
+
+### Visualization of the Data
+Below is a plot showing the distribution of car prices by manufacturer after data clipping, which helps in understanding how car prices vary across different manufacturers.
+
+![Price Distribution by Manufacturer](/plots/manufacturer_after_clip.png)
+
+This visualization provides insights into which manufacturers tend to have higher price points, potentially influencing inventory decisions for used car dealers.
+
 ## Key Findings
 
 ### Predictive Power of Features
